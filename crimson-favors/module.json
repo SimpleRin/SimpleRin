@@ -1,0 +1,73 @@
+{
+    "name": "crimson-favors",
+    "title": "Crimson Favors",
+    "author": "SimpleRin",
+    "description": "Private Grim Hollow Game",
+    "packs": [
+        {
+            "name": "player",
+            "label": "Player",
+            "type": "Actor",
+            "system": "dnd5e",
+            "path": "/packs/player.db",
+            "entity": "Actor",
+            "module": "crimson-favors"
+        },
+        {
+            "name": "npcs",
+            "label": "NPC's",
+            "type": "Actor",
+            "system": "dnd5e",
+            "path": "/packs/npcs.db",
+            "entity": "Actor",
+            "module": "crimson-favors"
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "/packs/items.db",
+            "entity": "Item",
+            "module": "crimson-favors"
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "type": "Scene",
+            "path": "/packs/scenes.db",
+            "entity": "Scene",
+            "module": "crimson-favors"
+        },
+        {
+            "name": "journals",
+            "label": "Journals",
+            "type": "JournalEntry",
+            "path": "/packs/journals.db",
+            "entity": "JournalEntry",
+            "module": "crimson-favors"
+        },
+        {
+            "name": "creatures",
+            "label": "Creatures",
+            "type": "Actor",
+            "system": "dnd5e",
+            "path": "/packs/creatures.db",
+            "entity": "Actor",
+            "module": "crimson-favors"
+        }
+    ],
+    "id": "crimson-favors",
+    "authors": [
+        {
+            "name": "SimpleRin"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
+    },
+    "version": "1.1"
+}
